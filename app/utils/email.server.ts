@@ -31,7 +31,7 @@ export async function sendEmail({
     | { html: string; text: string; react?: never }
     | { react: ReactElement; html?: never; text?: never }
   )) {
-  const from = 'accounts+dev@murimessias.com.br'
+  const from = 'accounts+dev@trips.murimessias.com.br'
 
   const email = {
     from,
